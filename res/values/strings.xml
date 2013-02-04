@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, StatusActivity!</string>
+    <string name="app_name">Yamba</string>
+    <string name="status_update">Status Update</string>
+    <string name="button_update">Update!</string>
+    <string name="hint">Napisz Tweetka !!</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="refresh">Refresh</string>
+    <string name="username">Username</string>
+    <string name="username_summary">Enter Your  login username</string>
+    <string name="password">Password</string>
+    <string name="password_summary">Enter Your Login Password</string>
+    <string name="server">Enter Your Server</string>
+    <string name="preferences">Preferences</string>
+    <string name="delay_summary">How frequently to check for updates</string>
+    <string name="delay">Delay</string>
+
+    <string-array name="delayNames">
+        <item>Every fifteen minutes</item>
+        <item>Every half hour</item>
+        <item>Every hour</item>
+        <item>Every half day</item>
+        <item>Once a day</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="delayValues">
+        <item>900000</item>
+        <item>1800000</item>
+        <item>3600000</item>
+        <item>43200000</item>
+        <item>86400000</item>
+        <item>0</item>
+    </string-array>
+
+    <string name="timeline">Timeline</string>
+    <string name="status">Status</string>
+
+</resources>
